@@ -21,3 +21,7 @@ PDFIndexExplorer/Debug/PDFIndexExplorer.log
 Release/sumatrapdfcache/
 Setup_old.exe
 WordSearch/x64/
+*.iobj
+*.ipdb
+WordSearch/Release/
+*.exp
