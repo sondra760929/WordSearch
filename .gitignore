@@ -25,3 +25,5 @@ WordSearch/x64/
 *.ipdb
 WordSearch/Release/
 *.exp
+Release/WordSearch.exe
+Release/WordSearch.lib
