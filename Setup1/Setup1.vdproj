@@ -27,6 +27,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_5E2CCE64507348A68864B5D28631F85F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_5FC104B60206492ABD1D96645BA7AB84"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -89,7 +95,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\PDFIncexExplorer.msi"
+        "OutputFilename" = "8:Release\\WordSearch.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -311,10 +317,10 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:PDFIndexExplorer v1.0"
-        "ProductCode" = "8:{3AF3CB79-C576-4965-8A53-7389FFE12AE1}"
-        "PackageCode" = "8:{71059C16-CE29-4D0F-83EF-4E9254A5A9B6}"
-        "UpgradeCode" = "8:{03B5AEC6-977B-4E48-B68C-499EC449163F}"
+        "ProductName" = "8:WordSearch v1.0"
+        "ProductCode" = "8:{034525B5-5ACF-40E5-ACAD-526EDB266EE0}"
+        "PackageCode" = "8:{35D66CCA-3991-45FF-A020-727DB30AA8A5}"
+        "UpgradeCode" = "8:{F0BC7F9C-6209-4977-9855-CE7B8D9B5FBC}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
@@ -324,7 +330,7 @@
         "Manufacturer" = "8:DOCUSCAN"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:PDFIndexExplorer v1.0"
+        "Title" = "8:WordSearch v1.0"
         "Subject" = "8:"
         "ARPCONTACT" = "8:DOCUSCAN"
         "Keywords" = "8:"
@@ -433,18 +439,18 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_82292916D2374329906B3E624ABF293E"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A087CC66CB3A438EB77F30A98EEA910E"
             {
-            "Name" = "8:PDFIndexExplorer v1.0"
+            "Name" = "8:WordSearch v1.0"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:128"
             "Transitive" = "11:FALSE"
-            "Target" = "8:"
+            "Target" = "8:_5E2CCE64507348A68864B5D28631F85F"
             "Folder" = "8:_672AB58E87AE4B56973D6F43DADFFBE1"
             "WorkingFolder" = "8:_31E4E7513623442AA99F16F52350BD76"
-            "Icon" = "8:"
+            "Icon" = "8:_5E2CCE64507348A68864B5D28631F85F"
             "Feature" = "8:"
             }
         }
@@ -851,6 +857,34 @@
         }
         "ProjectOutput"
         {
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5E2CCE64507348A68864B5D28631F85F"
+            {
+            "SourcePath" = "8:..\\Release\\WordSearch.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_31E4E7513623442AA99F16F52350BD76"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{AA625560-C4E4-43DD-B617-206DD9C77217}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
         }
     }
 }

@@ -27,3 +27,4 @@ WordSearch/Release/
 *.exp
 Release/WordSearch.exe
 Release/WordSearch.lib
+Setup1/Release/WordSearch.msi
