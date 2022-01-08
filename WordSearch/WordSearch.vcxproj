@@ -23,7 +23,7 @@
     <ProjectGuid>{AA625560-C4E4-43DD-B617-206DD9C77217}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
     <RootNamespace>WordSearch</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <ProjectName>WordSearch</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -37,7 +37,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
     <UseOfMfc>Static</UseOfMfc>
@@ -83,8 +83,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>E:\Library\xlnt-master\include;$(ProjectDir)Ultimate_Grid\Include;E:\Library\sumatrapdf-master\mupdf\include;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\Library\xlnt-master\build\source\Release;E:\Library\sumatrapdf-master\rel;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\Library\xlnt-master\include;$(ProjectDir)Ultimate_Grid\Include;E:\Library\sumatrapdf\mupdf\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Library\xlnt-master\build\source\Release;E:\Library\sumatrapdf\out\rel32;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>

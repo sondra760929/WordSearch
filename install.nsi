@@ -14,7 +14,7 @@
 
 ; MUI Settings
 !define MUI_ABORTWARNING
-!define MUI_ICON "PDFIndexExplorer\res\PDFIndexExplorer.ico"
+!define MUI_ICON "E:\source\PDFIndexExplorer\PDFIndexExplorer\res\PDFIndexExplorer.ico"
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_WELCOMEFINISHPAGE_BITMAP "E:\source\PDFIndexExplorer\docuscan.bmp"
 
@@ -71,6 +71,7 @@ Function SerialPageLeave
   MessageBox MB_OK|MB_ICONEXCLAMATION "Entered serial key is not valid!"
   Abort
   
+ StrCmp $R1 '0000' +13
  StrCmp $R1 '6203' +12
  StrCmp $R1 '6738' +11
  StrCmp $R1 '0123' +10
@@ -84,6 +85,7 @@ Function SerialPageLeave
   MessageBox MB_OK|MB_ICONEXCLAMATION "Entered serial key is not valid!"
   Abort
 
+ StrCmp $R2 '1111' +13
  StrCmp $R2 '9985' +12
  StrCmp $R2 '0201' +11
  StrCmp $R2 '2214' +10
@@ -97,6 +99,7 @@ Function SerialPageLeave
   MessageBox MB_OK|MB_ICONEXCLAMATION "Entered serial key is not valid!"
   Abort
 
+ StrCmp $R3 '2222' +13
  StrCmp $R3 '2879' +12
  StrCmp $R3 '0543' +11
  StrCmp $R3 '8553' +10
@@ -110,6 +113,7 @@ Function SerialPageLeave
   MessageBox MB_OK|MB_ICONEXCLAMATION "Entered serial key is not valid!"
   Abort
 
+ StrCmp $R4 '3333' +13
  StrCmp $R4 '1915' +12
  StrCmp $R4 '1335' +11
  StrCmp $R4 '0665' +10
