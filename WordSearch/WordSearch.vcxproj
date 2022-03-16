@@ -23,7 +23,7 @@
     <ProjectGuid>{AA625560-C4E4-43DD-B617-206DD9C77217}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
     <RootNamespace>WordSearch</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <ProjectName>WordSearch</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -83,8 +83,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>E:\Library\xlnt-master\include;$(ProjectDir)Ultimate_Grid\Include;E:\Library\sumatrapdf\mupdf\include;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\Library\xlnt-master\build\source\Release;E:\Library\sumatrapdf\out\rel32;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\Library\xlnt-master\include;$(ProjectDir)Ultimate_Grid\Include;E:\Library\sumatrapdf\mupdf\include;E:\Library\uchardet-0.0.7\src;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Library\xlnt-master\build\source\Release;E:\Library\sumatrapdf\out\rel32;E:\Library\uchardet-0.0.7\build\src\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -149,6 +149,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <AdditionalDependencies>uchardet.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
